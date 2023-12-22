@@ -50,7 +50,7 @@ instalar_psi(){
     clear
     if [[ "$(netstat -tlpn | grep 'psiphond' | wc -l)" != '1' ]]; then
     echo -e "${azulRB}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-    echo -e "${cyanR} N4 PSI AUTOSCRIPT "
+    echo -e "${cyanR} Home PSI AUTOSCRIPT "
     echo -e "${azulRB}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
     read -p "$(echo -e "${blanco} ဆက်လက် install ရန် s ကို ရွေးပါ ${blanco}? ${rojo}[${blanco}s/n${rojo}]${blanco}: ")"  -e -i s resp
     echo -e "${azulRB}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
